@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="root">
+
+        <div id="startBtdiv">
+            <button type="button" class="btn btn-danger" id="startBt">Click to start game</button>
+        </div>
+        <div id="startGame">
+
+            <div id="imgdiv">
+                <img src="chick.gif" alt="" class="animalImg" id="chick">
+                <img src="dog.gif" alt="" class="animalImg" id="dog">
+                <img src="duck.gif" alt="" class="animalImg" id="duck">
+                <img src="horse.gif" alt="" class="animalImg" id="horse">
+            </div>
+
+            <div id="endPoint"></div>
+        </div>
+
+        <button type="button" class="btn btn-danger" id="chooseBt">Click to promot animal</button>
+
+        <br>
+        <div id="displayChooseAnimal">
+            <label id="label">The choosen animal:</label>
+            <div id="choosenAnimal"></div>
+        </div>
+
+        <div id="win"></div>
+
+        <audio src="./horse_audio.mp3" id="audiohorse"></audio>
+        <audio src="./chick_audio.mp3" id="audiochick"></audio>
+        <audio src="./dog_audio.wav" id="audiodog"></audio>
+        <audio src="./duck_audio.wav" id="audioduck"></audio>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
